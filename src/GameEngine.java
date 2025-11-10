@@ -16,7 +16,7 @@ public boolean makeMove(int row, int col) {
         currentPlayer = (currentPlayer == 'X') ? 'O' : 'X';
     }
 }
-public void displayBoard() { System.out.println("Current Board:");
+public void displayBoard() { System.out.println("Board:");
         System.out.println("  1 2 3");
         for (int i = 0; i < 3; i++) {
             System.out.print((i + 1) + " ");
@@ -32,7 +32,7 @@ public void displayBoard() { System.out.println("Current Board:");
     }
 
 public void displayBoard() {
-        System.out.println("Current Board:");
+        System.out.println("Board:");
         System.out.println("  1 2 3");
         for (int i = 0; i < 3; i++) {
             System.out.print((i + 1) + " ");
